@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Namics.Opensource.ChromeDataReferences</id>
+        <version>1.0.0</version>
+        <authors>Namics AG</authors>
+        <owners>Namics AG</owners>
+        <licenseUrl>https://creativecommons.org/publicdomain/zero/1.0/</licenseUrl>
+        <projectUrl>http://sitecore.namics.com</projectUrl>
+        <iconUrl>http://sitecore.namics.com/wp-content/themes/terrific/terrific/img/favicon.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package extends the backend functionality of Sitecore - see more informations under the project url</description>
+        <releaseNotes>Initial Package.</releaseNotes>
+        <copyright>Copyright 2015</copyright>
+        <tags>snippet sitecore backend chromedata content cms</tags>
+    </metadata>
+    <files>
+        <file src="..\Namics.Opensource.ChromeDataReferences.Processor\Configs\Namics.Opensource.ChromeDataReferences.config" target="content\App_Config\Include\Namics.Opensource.ChromeDataReferences.config" />
+        <file src="..\Namics.Opensource.ChromeDataReferences.Processor\bin\Release\Namics.Opensource.ChromeDataReferences.Processor.dll" target="lib\net45\Namics.Opensource.ChromeDataReferences.Processor.dll" />
+    </files>
+</package>
