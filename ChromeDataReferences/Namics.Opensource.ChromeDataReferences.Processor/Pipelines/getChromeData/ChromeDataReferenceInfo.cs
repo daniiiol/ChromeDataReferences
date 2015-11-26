@@ -29,7 +29,7 @@ namespace Namics.Opensource.ChromeDataReferences.Processor.Pipelines.getChromeDa
         }
 
         /// <summary>
-        /// Checks the references to this field and the publishing information of the field-item
+        /// Checks the references to this field-item
         /// </summary>
         /// <param name="args">Sitecore Chrome Data Arguments</param>
         private void FieldElement(GetChromeDataArgs args)
@@ -52,7 +52,7 @@ namespace Namics.Opensource.ChromeDataReferences.Processor.Pipelines.getChromeDa
         }
 
         /// <summary>
-        /// Checks the references and the publishing information of the rendering datasource
+        /// Checks the references and the item information of the rendering datasource
         /// </summary>
         /// <param name="args">Sitecore Chrome Data Arguments</param>
         private void RenderingElement(GetChromeDataArgs args)
